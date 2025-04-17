@@ -5,7 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Journey</title>
   <link rel="stylesheet" href="styles.css">
-</head>
+  <script type="module">
+    import * as THREE from 'https://unpkg.com/three@0.147.0/build/three.module.js';
+    window.THREE = THREE;
+  </script>
+  </head>
 <body>
   <div id="scene"></div>
   <script type="module" src="space-to-brain.js"></script>
